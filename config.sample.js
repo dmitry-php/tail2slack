@@ -1,9 +1,10 @@
 'use strict';
 
 var config = {
-    orgdomain : 'xxxxxxx',
-    token     : 'xxxxxxx',
-    channel   : 'general',
+    url: '',
+    username: 'Bot',
+    channel: '#general',
+    icon_emoji: ':robot_face:',
     logfiles  : ['/var/log/system.log']
 };
 
