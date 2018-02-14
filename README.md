@@ -2,12 +2,10 @@
 
 `tail -f` the log files and send all the new lines to any public channel as Slackbot.
 
-![Screen Shot](https://raw.githubusercontent.com/Leask/tail-2-slackbot/master/images/demo.png)
-
 ## Installation
 
-	    $ git clone https://github.com/Leask/tail-2-slackbot.git
-	    $ cd tail-2-slackbot
+	    $ git clone https://github.com/dmitry-php/tail2slack
+	    $ cd tail2slack
 	    $ npm install
 	    $ cp config.sample.js config.js
 
@@ -28,6 +26,4 @@
 
 	`$ node main`
 	
-## Getting help
-
-Email / iMessage / Hangouts: i@leaskh.com
+Original idea was gotten from https://github.com/Leask/tail-2-slackbot
